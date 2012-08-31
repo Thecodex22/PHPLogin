@@ -1,0 +1,83 @@
+body
+{
+	background-color: #B5B9C1;
+	overflow: hidden;
+
+	background-image:url('../images/inceplanet.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.loginHolder
+{
+	width:500px;
+	margin-top: 100px;
+	margin-left:-10px;
+	background-color: #0E264E;
+
+	border:2px solid white;
+}
+
+label, .welcome
+{
+	font-family:Verdana;
+	font-size: 13pt;
+	color:white;
+	font-weight: bold
+}
+form, p, h3
+{
+	position: relative;
+	margin-left:200px;
+	margin-top: 10px;
+}
+form input
+{
+	background-color: #0E264E;
+	color: white;
+	border:1px solid white;	
+
+	font-weight: 600;
+}
+a:link
+{
+	color:white;
+	font-style: normal;
+	font-family: Verdana;
+	font-size: 13pt;
+}
+span.error
+{
+	color:red;
+	font-weight: bold;
+	font-size: 11pt;
+}
+.sitecenter
+{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+
+	background-color: #0E264E;
+	border:2px solid white;
+
+	text-align: center;
+}
+.sitecenter h2
+{
+	font-size: 20pt;
+	color:white;
+	margin-bottom:5px;
+}
+.sitecenter span.currency
+{
+	color:#B2F63D;
+	font-weight: bold;
+	font-size: 20pt;
+}
+.sitecenter p
+{
+	font-size: 11pt;
+	color:white;
+	text-align: justify;
+
+}
